@@ -181,10 +181,10 @@ GO
 <h2 id="diagram">Структура БД</h2>
 <img src="diagram.png" alt="diagram">
 <h2 id="add">Заполнение таблиц данными</h2>
-<img src="category" alt="category">
-<img src="food" alt="food">
-<img src="rf" alt="rf">
-<img src="recipes" alt="recipes">
+<img src="category.png" alt="category">
+<img src="food.png" alt="food">
+<img src="rf.png" alt="rf">
+<img src="recipes.png" alt="recipes">
 <h2 id="request">Запросы к БД</h2>
 
 ```sql
@@ -202,7 +202,7 @@ where Recipes.BludoName = 'Пирог'
 group by Recipes.Persons
 ```
 <p>Запрос 1: Вывод списка продуктов и сметы для данного блюда</p>
-<img src="req1" alt="req1">
+<img src="req1.png" alt="req1">
 
 ```sql
 -- Поиск цены по наименованию продукта
@@ -212,7 +212,7 @@ where FoodTest.ProductName = 'Курица'
 ```
 
 <p>Запрос 2: Поиск цены по наименованию продукта</p>
-<img src="req2" alt="req2">
+<img src="req2.png" alt="req2">
 
 ```sql
 --Поиск цены по наименованию блюда
@@ -225,7 +225,7 @@ group by Recipes.BludoName
 ```
 
 <p>Запрос 3: Вывод списка продуктов и сметы для данного блюда</p>
-<img src="req3" alt="req3">
+<img src="req3.png" alt="req3">
 
 <h2 id="exp">Полученный мною опыт</h2>
 <ul>
