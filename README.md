@@ -179,13 +179,13 @@ ALTER TABLE [dbo].[RF_Links] CHECK CONSTRAINT [FK_RF_Links_Recipes]
 GO
 ```
 <h2 id="diagram">Структура БД</h2>
-<img src="diagram.png" alt="diagram" width="700px">
+<img src="images/diagram.png" alt="diagram" width="700px">
 
 <h2 id="add">Заполнение таблиц данными</h2>
-<img src="category.png" alt="category" width="200px">
-<img src="food.png" alt="food" width="300px">
-<img src="rf.png" alt="rf" width="300px">
-<img src="recipes.png" alt="recipes" width="300px">
+<img src="images/category.png" alt="category" width="200px">
+<img src="images/food.png" alt="food" width="300px">
+<img src="images/rf.png" alt="rf" width="300px">
+<img src="images/recipes.png" alt="recipes" width="300px">
 
 <h2 id="request">Запросы к БД</h2>
 
@@ -204,7 +204,7 @@ where Recipes.BludoName = 'Пирог'
 group by Recipes.Persons
 ```
 <p>Запрос 1: Вывод списка продуктов и сметы для данного блюда</p>
-<img src="req1.png" alt="req1" width="200px">
+<img src="images/req1.png" alt="req1" width="200px">
 
 ```sql
 -- Поиск цены по наименованию продукта
@@ -214,7 +214,7 @@ where FoodTest.ProductName = 'Курица'
 ```
 
 <p>Запрос 2: Поиск цены по наименованию продукта</p>
-<img src="req2.png" alt="req2" width="200px">
+<img src="images/req2.png" alt="req2" width="200px">
 
 ```sql
 --Поиск цены по наименованию блюда
@@ -227,7 +227,7 @@ group by Recipes.BludoName
 ```
 
 <p>Запрос 3: Вывод списка продуктов и сметы для данного блюда</p>
-<img src="req3.png" alt="req3" width="200px">
+<img src="images/req3.png" alt="req3" width="200px">
 
 <h2 id="exp">Полученный мною опыт</h2>
 <ul>
