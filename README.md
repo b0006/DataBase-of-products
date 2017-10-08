@@ -2,9 +2,10 @@
 <h1>Содержание</h1>
   <ul>
     <li><a href="#">Задача</a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
-    <li><a href="#"></a></li>
+    <li><a href="#create">SQL-скрипт создание БД</a></li>
+    <li><a href="#diagram">Структура БД</a></li>
+    <li><a href="#request">Запросы к БД</a></li>
+    <li><a href="#exp">Полученный мною опыт</a></li>
   </ul>
 <h2 id="task">Задача</h2>
 <p align="justify">
@@ -225,3 +226,11 @@ group by Recipes.BludoName
 
 <p>Запрос 3: Вывод списка продуктов и сметы для данного блюда</p>
 <img src="req3" alt="req3">
+
+<h2 id="exp">Полученный мною опыт</h2>
+<ul>
+<li>Опыт работы с SQL в среде MS SQL Server 2012;</li>
+<li>Научился создавать таблицы;</li>
+<li>Осуществлять между ними отношения;</li>
+<li>Выполнять к БД запросы.</li>
+</ul>
