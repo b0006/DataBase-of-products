@@ -204,7 +204,7 @@ where Recipes.BludoName = 'Пирог'
 group by Recipes.Persons
 ```
 <p>Запрос 1: Вывод списка продуктов и сметы для данного блюда</p>
-<img src="req1.png" alt="req1" width="300px">
+<img src="req1.png" alt="req1" width="200px">
 
 ```sql
 -- Поиск цены по наименованию продукта
@@ -214,7 +214,7 @@ where FoodTest.ProductName = 'Курица'
 ```
 
 <p>Запрос 2: Поиск цены по наименованию продукта</p>
-<img src="req2.png" alt="req2" width="300px">
+<img src="req2.png" alt="req2" width="200px">
 
 ```sql
 --Поиск цены по наименованию блюда
@@ -227,7 +227,7 @@ group by Recipes.BludoName
 ```
 
 <p>Запрос 3: Вывод списка продуктов и сметы для данного блюда</p>
-<img src="req3.png" alt="req3" width="300px">
+<img src="req3.png" alt="req3" width="200px">
 
 <h2 id="exp">Полученный мною опыт</h2>
 <ul>
